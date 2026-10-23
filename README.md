@@ -16,6 +16,7 @@ Each directory is a set of files, published as one artifact:
 |:-----------|:----------------|:--------------------------|
 | `pdbtools` | `pdbtools-v1`   | PDBToolsBase.jl, PDBTools.jl |
 | `pdbtools_extra` | `pdbtools_extra-v1` | PDBTools.jl |
+| `celllistmap` | `celllistmap-v1` | CellListMap.jl |
 
 The release asset of each set is a tarball of the files of the directory (`<set>.tar.gz`),
 with the files at the root of the tarball.
@@ -52,19 +53,11 @@ Released tarballs are never modified: a change in a set is a new release (e.g.
 need the new files.
 
 1. Add or update the files in the directory of the set, and commit.
-2. Create the tarball and compute its hashes (from the root of this repository):
+2. Create the tarball, and print the `Artifacts.toml` entry of the new version (from the
+   root of this repository):
 
-    ```julia
-    using Pkg.Artifacts, SHA
-    set = "pdbtools"
-    hash = create_artifact() do dir
-        for f in readdir(set)
-            cp(joinpath(set, f), joinpath(dir, f))
-        end
-    end
-    archive_artifact(hash, "$set.tar.gz")
-    println("git-tree-sha1 = ", bytes2hex(hash.bytes))
-    println("sha256 = ", bytes2hex(open(sha256, "$set.tar.gz")))
+    ```bash
+    julia make_artifact.jl pdbtools 2
     ```
 
 3. Publish the tarball in a new release:
