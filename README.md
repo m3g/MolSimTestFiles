@@ -15,6 +15,7 @@ Each directory is a set of files, published as one artifact:
 | Directory  | Release tag     | Used by                   |
 |:-----------|:----------------|:--------------------------|
 | `pdbtools` | `pdbtools-v1`   | PDBToolsBase.jl, PDBTools.jl |
+| `pdbtools_extra` | `pdbtools_extra-v1` | PDBTools.jl |
 
 The release asset of each set is a tarball of the files of the directory (`<set>.tar.gz`),
 with the files at the root of the tarball.
