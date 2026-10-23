@@ -16,7 +16,7 @@ Each directory is a set of files, published as one artifact:
 |:-----------|:----------------|:--------------------------|
 | `pdbtools` | `pdbtools-v1`   | PDBToolsBase.jl, PDBTools.jl |
 | `pdbtools_extra` | `pdbtools_extra-v1` | PDBTools.jl |
-| `celllistmap` | `celllistmap-v1` | CellListMap.jl |
+| `celllistmap` | `celllistmap-v2` | CellListMap.jl |
 | `protein_tmao` | `protein_tmao-v1` | MolSimToolkit.jl, ComplexMixtures.jl |
 | `molsimtoolkit` | `molsimtoolkit-v1` | MolSimToolkit.jl |
 
