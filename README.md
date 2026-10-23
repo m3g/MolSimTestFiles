@@ -19,6 +19,7 @@ Each directory is a set of files, published as one artifact:
 | `celllistmap` | `celllistmap-v2` | CellListMap.jl |
 | `protein_tmao` | `protein_tmao-v1` | MolSimToolkit.jl, ComplexMixtures.jl |
 | `molsimtoolkit` | `molsimtoolkit-v1` | MolSimToolkit.jl |
+| `complexmixtures` | `complexmixtures-v1` | ComplexMixtures.jl |
 
 The release asset of each set is a tarball of the files of the directory (`<set>.tar.gz`),
 with the files at the root of the tarball.
