@@ -2,7 +2,7 @@
 # toy problem
 #
 tolerance 2.0
-pbc 20.0 20.0 20.0
+pbc -10. -10. -10. 10. 10. 10.
 
 structure ../structure_files/SOD.pdb
   number 1 
