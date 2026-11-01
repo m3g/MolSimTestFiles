@@ -1,0 +1,43 @@
+colvar {
+  name length
+  distance {
+    group1 { atomNumbers 1 }
+    group2 { atomNumbers 81 124 }
+  }
+}
+harmonicWalls {
+  colvars length
+  lowerWalls 20.4
+  forceConstant 5.0
+}
+colvar {
+  name ends
+  distance {
+    group1 { atomNumbers 81 }
+    group2 { atomNumbers 124 }
+  }
+}
+harmonicWalls {
+  colvars ends
+  upperWalls 6.0
+  forceConstant 5.0
+}
+colvar {
+  name end1
+  distance {
+    group1 { atomNumbers 1 }
+    group2 { atomNumbers 81 }
+  }
+}
+colvar {
+  name end2
+  distance {
+    group1 { atomNumbers 1 }
+    group2 { atomNumbers 124 }
+  }
+}
+harmonicWalls {
+  colvars end1 end2
+  lowerWalls 23.0 21.2
+  forceConstant 5.0
+}

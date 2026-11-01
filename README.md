@@ -22,6 +22,7 @@ Each directory is a set of files, published as one artifact:
 | `complexmixtures` | `complexmixtures-v1` | ComplexMixtures.jl |
 | `packmol` | `packmol-v2` | Packmol.jl |
 | `packmol_zika` | `packmol_zika-v1` | Packmol.jl (the Zika virion tutorial; coarse-grained capsid, 37 MB) |
+| `packmol_lipids` | `packmol_lipids-v1` | Packmol.jl (lipid conformations for membranes and vesicles: tutorials and the `Membrane` recipe) |
 
 The release asset of each set is a tarball of the files of the directory (`<set>.tar.gz`),
 with the files at the root of the tarball.
