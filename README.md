@@ -20,7 +20,7 @@ Each directory is a set of files, published as one artifact:
 | `protein_tmao` | `protein_tmao-v1` | MolSimToolkit.jl, ComplexMixtures.jl |
 | `molsimtoolkit` | `molsimtoolkit-v1` | MolSimToolkit.jl |
 | `complexmixtures` | `complexmixtures-v1` | ComplexMixtures.jl |
-| `packmol` | `packmol-v2` | Packmol.jl |
+| `packmol` | `packmol-v3` | Packmol.jl |
 | `packmol_zika` | `packmol_zika-v1` | Packmol.jl (the Zika virion tutorial; coarse-grained capsid, 37 MB) |
 | `packmol_lipids` | `packmol_lipids-v1` | Packmol.jl (lipid conformations for membranes and vesicles: tutorials and the `Membrane` recipe) |
 

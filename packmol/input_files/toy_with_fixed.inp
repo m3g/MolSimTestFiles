@@ -22,6 +22,5 @@ structure ../structure_files/CLA.pdb
 end structure
 
 output output.pdb
-avoid_overlap no
 seed 17504
 #check
