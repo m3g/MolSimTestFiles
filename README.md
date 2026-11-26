@@ -25,6 +25,7 @@ Each directory is a set of files, published as one artifact:
 | `packmol_lipids` | `packmol_lipids-v1` | Packmol.jl (lipid conformations for membranes and vesicles: tutorials and the `Membrane` recipe) |
 | `packmol_exosome` | `packmol_exosome-v1` | Packmol.jl (the exosome tutorial: all-atom proteins, lipids, water and ions, and the two input files) |
 | `packmol_lnp` | `packmol_lnp-v1` | Packmol.jl (the lipid nanoparticle tutorial: SIRAH lipids and water, placeholder RNA, and the two input files) |
+| `packmol_tutorials` | `packmol_tutorials-v1` | Packmol.jl (the structure files of the tutorials, one file per molecule) |
 
 The release asset of each set is a tarball of the files of the directory (`<set>.tar.gz`),
 with the files at the root of the tarball.
